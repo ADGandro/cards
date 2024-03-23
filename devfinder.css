@@ -214,3 +214,21 @@
       }
       
   }
+
+   /* Define styles for light mode */
+.light-mode {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Define styles for dark mode */
+.dark-mode {
+  --bg-color: #333333;
+  --text-color: #ffffff;
+}
+
+/* Apply background and text color based on mode */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
