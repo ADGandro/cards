@@ -10,3 +10,4 @@ modeToggle.addEventListener('click', function() {
     modeToggle.textContent = '🌙'; // Change icon to moon
   }
 });
+
